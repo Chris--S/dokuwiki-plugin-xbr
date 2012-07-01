@@ -1,0 +1,7 @@
+base     xbr
+author   Christopher Smith
+email    chris@jalakai.co.uk
+date     2012-06-30
+name     XBR Plugin
+desc     A replacement for the standard dokuwiki renderer which keeps your line-breaks.
+url      http://dokuwiki.org/plugin:xbr
