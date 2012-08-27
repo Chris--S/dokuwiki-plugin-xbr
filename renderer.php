@@ -28,7 +28,7 @@ class renderer_plugin_xbr extends Doku_Renderer_xhtml {
     }
 
     function cdata($text) {
-        $this->doc .= str_replace("\n","<br />\n",trim($this->_xmlEntities($text)));
+        $this->doc .= str_replace("\n","<br />\n",$this->_xmlEntities($text));
     }
 
 }
